@@ -132,3 +132,47 @@ nav {
     padding: 10px;
     border-radius: 10px;
 }
+/* Inspiration Section End */
+
+/* My Current Section Start */
+.current-target {
+    margin-top: 70px;
+    margin-left:10%;
+    margin-right:10%;
+    
+}
+.current-target-card {
+    display: flex;
+
+}
+.ct-sub {
+    margin-left:150px;
+    margin-right:150px;
+}
+.target-html {
+    background-color: #fef6f4;
+    border-radius: 10px;
+    padding: 40px 30px;
+    margin: 40px 15px;
+    width: 100%;
+    
+}
+.target-css {
+    background-color: #F2F6FE;
+    border-radius: 10px;
+    padding: 40px 30px;
+    margin: 40px 15px;
+    width: 100%;
+    
+}
+.target-javascript {
+    background-color: #FFFDF2;
+    border-radius: 10px;
+    padding: 40px 30px;
+    margin: 40px 15px;
+    width: 100%;
+}
+.target-content {
+    margin-bottom: 20px;
+}
+/* My Current Section End */
