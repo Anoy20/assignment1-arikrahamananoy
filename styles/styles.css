@@ -1,6 +1,9 @@
 * {
     margin: 0px;
 }
+p ,h2 {
+    line-height: 1.5;
+}
 
 .azeret-mono-normal {
   font-family: "Azeret Mono", monospace;
@@ -28,6 +31,8 @@ nav {
 .header-button:hover {
     color: white;
     background-color: black;
+    box-shadow: 10px 10px 5px #CAE8FD;
+    transition: 0.3s;
 }
 /* Navigation End */
 
@@ -35,8 +40,8 @@ nav {
 .hero-section {
     background-image: url('../assets/Hero-bg.png');
     object-fit: cover;
-    text-align: center;
     padding: 30px 80px;
+    text-align: center;
 }
 .hero-image {
     margin-bottom: 24px;
@@ -45,12 +50,72 @@ nav {
     margin-top: 32px;
     font-size: 20px;
     color: white;
-    background-color: black;
+    background-color: #0D1321;
     border-radius: 5px;
     padding: 15px 22px;
-    border: black solid 1px;
+    border: #0D1321 solid 1px;
 }
 .hero-contact-btn:hover{
-    color: black;
+    color: #0D1321;
     background-color: white;
+    box-shadow: 10px 10px 5px black;
+    transition: 0.3s;
+}
+/* Hero Section End */
+
+/* Why Web Development Section Start */
+
+.choosing-webdevelopment {
+    background-color: #FAFAFB;
+    margin: 50px 60px;
+    border-radius: 10px;
+    padding: 60px;
+    
+}
+.wwd-card{
+    display: flex;
+    padding: 48px;
+    border-radius: 10px;
+    margin-top: 48px;
+}
+.wwd-card-text {
+    display: inline;
+    
+}
+.wwd-card-text h2 {
+    color:#555963;
+    font-size: 24px;
+    
+}
+.wwd-card-text p {
+    color:#555963;
+    font-size: 16px;
+    font-weight: 200;
+    margin-top: 20px;
+}
+
+.wwd-card-image {
+    display: inline;
+    width:240px;
+    height: 240px;
+}
+.wwd-card-btn {
+    color:#555963;
+    font-size: 20px;
+    background-color: #FEFEFE;
+    border: 1px solid #555963;
+    padding: 10px 15px;
+    margin-top: 20px;
+}
+.wwd-card-btn:hover {
+    color: white;
+    background-color: black;
+    box-shadow: 10px 10px 5px #CAE8FD;
+    transition: 0.3s;
+}
+.layer-1 {
+    background-image: linear-gradient(to right, #FFFFFF, #FAFAFB);
+}
+.layer-2 {
+    background-image: linear-gradient(to left, #FFFFFF, #FAFAFB);
 }
