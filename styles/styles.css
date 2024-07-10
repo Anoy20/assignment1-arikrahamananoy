@@ -187,8 +187,12 @@ nav {
     padding-top: 64px;
     padding-bottom: 64px ;
     justify-content: center;
-    max-width: 100%;
     align-items:start;
+    background-size: cover;
+    background-position: 50% 50%;
+    opacity: 1;
+    background-blend-mode: multiply; 
+  background-color: rgba(0, 0, 0, 0.597);
 }
 .need-support-input {
     margin-top: 20px;
