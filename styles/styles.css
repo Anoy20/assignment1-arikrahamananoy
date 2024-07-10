@@ -119,3 +119,16 @@ nav {
 .layer-2 {
     background-image: linear-gradient(to left, #FFFFFF, #FAFAFB);
 }
+/* Why Web Development Section End */
+ 
+/* Inspiration Section Start */
+.inspiration {
+    margin-top: 100px;
+}
+.iframe-video {
+    text-align: center;
+    border:1px solid #D7D7D8;
+    margin: 50px 219px;
+    padding: 10px;
+    border-radius: 10px;
+}
