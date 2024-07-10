@@ -187,15 +187,18 @@ nav {
     padding-top: 64px;
     padding-bottom: 64px ;
     justify-content: center;
+    max-width: 100%;
+    align-items:start;
 }
 .need-support-input {
     margin-top: 20px;
     border-radius: 5px;
     height: 40px;
-    width: 250px;
+    width: 550px;
     border: none;
-    padding-left: 10px;
+    padding-left: 20px;
     font-size: 16px;
+    font-family: "Azeret Mono", monospace;
 }
 .need-support-input placeholder {
     padding: 10px;
@@ -208,6 +211,7 @@ nav {
     font-weight: bold;
     padding: 10px 20px;
     border-radius: 5px;
+    font-family: "Azeret Mono", monospace;
 }
 .need-support-btn:hover {
     color: white;
@@ -215,3 +219,16 @@ nav {
     box-shadow: 10px 10px 5px #CAE8FD;
     transition: 0.3s;
 }
+/* Footer Section Start */
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F8F8F8;
+    padding: 15px 150px;
+    margin-top: 80px;
+}
+.footer-icon {
+    width: 28px;
+}
+/* Footer Section End */
